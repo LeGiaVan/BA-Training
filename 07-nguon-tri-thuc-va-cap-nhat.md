@@ -44,6 +44,8 @@ Mỗi thay đổi nên có ít nhất: một câu hỏi trực tiếp, một cá
 
 BA không tự chọn theo cảm tính. Cần hỏi người phụ trách: văn bản nào có hiệu lực, áp dụng cho nhóm người dùng nào, văn bản cũ bị thay toàn bộ hay chỉ một phần. Ghi quyết định này vào yêu cầu và expected result. Ví dụ FAQ nói một hạn nộp hồ sơ, thông báo mới nói hạn khác: cần xác định đúng **đợt tuyển sinh**, **bậc học** và **ngày hiệu lực** trước khi kết luận lỗi.
 
+FAQ khớp sát có thể được ưu tiên khi trả lời câu hỏi ngắn; tài liệu chi tiết có thể được ưu tiên khi người dùng hỏi bảng hoặc quy định cụ thể. Đây là cách **chọn nội dung phù hợp**, không phải quy tắc xác định văn bản nào có giá trị cao hơn khi hai nguồn mâu thuẫn. Nếu muốn hệ thống luôn ưu tiên một loại văn bản trong tình huống cụ thể, BA phải mô tả rõ điều kiện, phạm vi áp dụng và người phê duyệt quy tắc đó.
+
 ## Mẫu phiếu thay đổi nội dung
 
 | Mục | Cần ghi |

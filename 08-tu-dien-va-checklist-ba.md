@@ -60,6 +60,7 @@
 | TC10 | Gửi đăng ký tư vấn với một trường bắt buộc trống | Không gửi; chỉ ra phần cần bổ sung. |
 | TC11 | Gửi đăng ký khi một kênh tiếp nhận thành công | Báo đã tiếp nhận; nếu kênh thông báo lỗi, thể hiện cảnh báo phù hợp. |
 | TC12 | Thay thông báo tuyển sinh cũ bằng văn bản mới | Câu trả lời theo văn bản có hiệu lực; không trộn mốc cũ và mới. |
+| TC13 | FAQ và tài liệu cùng nói về một vấn đề nhưng ghi kết quả khác nhau | Xác nhận văn bản có hiệu lực với đơn vị nghiệp vụ; kết quả trả lời và nguồn phải theo quyết định đã chốt. |
 
 ## Năm câu hỏi BA nên mang đến buổi làm rõ
 

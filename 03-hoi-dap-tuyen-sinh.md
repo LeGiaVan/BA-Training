@@ -35,6 +35,19 @@ flowchart TD
 
 Nguồn giúp người dùng biết câu trả lời dựa vào tài liệu nào. Nó **không tự bảo đảm** tài liệu đó còn hiệu lực. Khi kiểm thử, BA cần xem nguồn có đúng chủ đề, đúng năm và hỗ trợ đúng câu trả lời hay không. Một câu trả lời nghe hợp lý nhưng trích nguồn sai vẫn là lỗi cần ghi nhận.
 
+## Nếu cả FAQ và tài liệu đều có câu trả lời thì chọn nguồn nào?
+
+**Hiện không có thứ tự cố định “luôn chọn FAQ” hoặc “luôn chọn tài liệu”.** Hệ thống tìm các đoạn liên quan từ cả hai nhóm, rồi xếp theo mức phù hợp với câu hỏi. Cách đặt câu hỏi, chủ đề, bậc học và năm có thể làm thứ tự thay đổi.
+
+| Trường hợp | Cách hệ thống đang hướng tới |
+| --- | --- |
+| Có câu FAQ khớp sát và trả lời đủ | Ưu tiên dùng câu trả lời FAQ đó, tránh kéo thêm các câu FAQ khác chỉ gần chủ đề. |
+| Người dùng cần bảng, danh sách, học phí hoặc chương trình chi tiết mà FAQ chỉ tóm tắt | Dùng phần tài liệu chi tiết phù hợp với nội dung được hỏi. |
+| FAQ và tài liệu cùng nói một ý, không mâu thuẫn | Có thể dùng thông tin từ cả hai; nguồn hiển thị có thể gồm cả FAQ và tài liệu. |
+| FAQ và tài liệu ghi **hai thông tin khác nhau** | Hệ thống **chưa có quy tắc nghiệp vụ chắc chắn** để tự chọn bản đúng chỉ dựa vào loại nguồn. BA phải xác định văn bản nào có hiệu lực, cho năm/bậc/đợt nào, rồi yêu cầu sửa hoặc ngừng dùng nội dung cũ. |
+
+Ví dụ: FAQ ghi hạn nộp hồ sơ ngày 15/6, thông báo mới ghi ngày 20/6. Không nên kết luận chatbot phải lấy “FAQ” hay “tài liệu” chỉ từ tên loại nguồn. BA cần xác nhận thông báo nào đang có hiệu lực và FAQ đã được cập nhật hay chưa. **Danh sách nguồn hiển thị không đồng nghĩa hệ thống đã giải quyết đúng mâu thuẫn.**
+
 ## Hội thoại và lỗi thường gặp
 
 Hệ thống giữ các lượt hỏi gần đây để trả lời tiếp. Khi người dùng bắt đầu cuộc hội thoại mới, câu hỏi cũ không nên ảnh hưởng câu trả lời mới. Nếu mạng lỗi, xử lý quá lâu hoặc người dùng gửi quá dồn dập, giao diện cần báo rõ tình trạng để người dùng biết có nên thử lại. BA nên kiểm thử cả câu hỏi đầu tiên, câu hỏi nối tiếp và câu hỏi chuyển chủ đề.
