@@ -14,6 +14,7 @@ Tài liệu này dành cho **BA thực tập** mới tham gia dự án. Chỉ c�
 | 6 | [Khảo sát và đăng ký tư vấn](06-khao-sat-dang-ky-va-du-lieu.md) | Hệ thống thu thập, tiếp nhận thông tin gì? |
 | 7 | [Quản lý nội dung tư vấn](07-nguon-tri-thuc-va-cap-nhat.md) | Thông tin trả lời đến từ đâu và cập nhật thế nào? |
 | 8 | [Từ điển và checklist BA](08-tu-dien-va-checklist-ba.md) | Viết yêu cầu và kiểm thử từ đâu? |
+| 9 | [Cơ chế chọn chunk Qdrant](09-co-che-chon-chunk-qdrant.md) | Khi nhiều tài liệu được tìm thấy, hệ thống chọn đoạn nào để trả lời? |
 
 ## Cách dùng tài liệu
 
